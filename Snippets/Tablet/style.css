@@ -1,0 +1,30 @@
+.parent{
+    display:flex;
+    justify-content:center;
+}
+.child{
+    background-color:greenyellow;
+    text-align:center;
+    border-radius:5px;
+    height:200px;
+    margin:5px;
+    font-size:3em;
+    line-height:200px;
+    //flex:1 400px;//flex grow,flex-basis와 같은말
+    flex-grow:1;   
+    flex-basis:300px;
+    /* flex-grow:1; */
+    //width:300px;
+}
+@media (min-width:768px) and (max-width:1024px){
+    .parent{
+        flex-wrap:wrap;
+    }
+}
+@media (max-width:767px){
+    .parent{
+        flex-wrap:wrap;
+    }
+}
+
+//사실 미디어쿼리없이 맨위에 패런트에 flex-wrap:warp 을 써도됨

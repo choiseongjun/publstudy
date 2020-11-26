@@ -1,0 +1,39 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+a{
+    text-decoration:none;
+}
+.yellowgreen{
+    background-color:yellowgreen;
+    width:800px;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.royalblue{
+    background-color:royalblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:600px;
+    height:300px;
+}
+.crimson{
+    background-color:crimson;
+    width:400px;
+    height:150px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.gray{
+    background-color:gray;
+    width:100px;
+    height:100px;
+    margin:5px;
+}
