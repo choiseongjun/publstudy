@@ -1,0 +1,25 @@
+.parent{
+    border:5px solid #000;
+    width:800px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.child{
+    height:200px;
+    width:calc(800px / 3);
+}
+.child:nth-child(1){
+    background-color:crimson;
+}
+.child:nth-child(2){
+    background-color:royalblue;
+}
+.child:nth-child(3){
+    background-color:yellowgreen;
+}
+.child:nth-child(4){
+    background-color:black;
+}
+.child:nth-child(5){
+    background-color:red;
+}
