@@ -1,0 +1,35 @@
+body, 
+h1,
+h2,
+p,
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+/*Layouts*/
+.wrapper{
+    width:960px;
+    margin: 0 auto;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 -10px;
+}
+.col{
+    width:25%;
+    flex-shrink: 0;
+    margin-bottom:20px;
+    padding:0 10px;
+    box-sizing: border-box;
+}
+/*components*/
+.editor{
+    background-color:dodgerblue;
+    padding:20px;
+}
